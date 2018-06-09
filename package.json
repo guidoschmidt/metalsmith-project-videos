@@ -20,18 +20,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoetmaaiers/metalsmith-project-images.git"
+    "url": "git@github.com:guidoschmidt/metalsmith-project-videos.git"
   },
   "keywords": [
     "metalsmith",
-    "images",
+    "videos",
     "project",
     "scan"
   ],
-  "author": "Robin Houdmeyers",
-  "license": "ISC",
+  "author": "Guido Schmidt <git@guidoschmidt.cc>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hoetmaaiers/metalsmith-project-images/issues"
+    "url": "https://github.com/guidoschmidt/metalsmith-project-videos/issues"
   },
-  "homepage": "https://github.com/hoetmaaiers/metalsmith-project-images#readme"
+  "homepage": "https://github.com/guidoschmidt/metalsmith-project-videos"
 }
