@@ -1,0 +1,38 @@
+{
+  "name": "metalsmith-project-videos",
+  "version": "1.0.0",
+  "description": "A metalsmith plugin that scan all videos in subfolders and add it to metadata.",
+  "main": "src/index.js",
+  "dependencies": {
+    "debug": "^0.7.4",
+    "lodash": "^3.10.1",
+    "minimatch": "^0.2.14"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.4",
+    "chai": "^3.4.0",
+    "metalsmith": "^2.1.0",
+    "minimatch": "^0.2.14",
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha --harmony --reporter spec test/index.js --compilers js:babel-core/register",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoetmaaiers/metalsmith-project-images.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "images",
+    "project",
+    "scan"
+  ],
+  "author": "Robin Houdmeyers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoetmaaiers/metalsmith-project-images/issues"
+  },
+  "homepage": "https://github.com/hoetmaaiers/metalsmith-project-images#readme"
+}
